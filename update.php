@@ -1,5 +1,5 @@
 <?php
-require("connection.php");
+require("include/connection.php");
 //update ppp user
 $api->comm("/ppp/secret/set", array(
       ".id"     => "Enter user id which do you want to update",
