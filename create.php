@@ -1,5 +1,5 @@
 <?php
-require("connection.php");
+require("include/connection.php");
 //create ppp user
 $api->comm("/ppp/secret/add", array(
       "name"     => "test",
